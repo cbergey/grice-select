@@ -1,0 +1,91 @@
+---
+title: "grice-select-analysis-full"
+output: html_document
+---
+
+```{r load_libraries}
+library("rjson")
+library("jsonlite")
+library("purrr")
+library(tidyverse)
+library(tidyboot)
+
+theme_set(theme_classic(base_size = 18))
+```
+
+```{r read_files}
+
+setwd("~/Documents/grice-select/raw_data")
+raw_data <- read_csv("./ipad/scalar-quint-prosody/rawdata.csv")
+
+subjdata <- raw_data %>%
+   mutate(subid = as.numeric(subid),
+          age = as.numeric(age)) %>%
+   filter(subid > 0) %>%
+   mutate(subid = paste0(date, "_", subid)) %>%
+   mutate(chosetarget = as.integer(as.logical(chosetarget))) %>%
+   mutate(choseunique = as.integer(as.logical(choseunique))) 
+   #mutate(choselure = as.integer(as.logical(choselure))) %>%
+   #mutate(target_size = case_when(targetpos == 1 ~ obj1size,
+                                  #targetpos == 2 ~ obj2size,
+                                  #T ~ obj3size))
+
+subjs <- subjdata %>%
+  distinct(subid, .keep_all = T)
+
+# for size
+mean_data <- subjdata %>%
+  mutate(rtsearch = as.numeric(rtsearch)) %>%
+#  filter(age >= 5) %>%
+  # mutate(age_bin = factor(age >= median(subjs$age), 
+  #                         levels = c(FALSE, TRUE),
+  #                         labels = c("younger", "older"))) %>%
+  #mutate(age_bin = case_when(subage <= 4 ~ "<4",
+                             #subage <= 6 ~ "5-6",
+                             #T ~ "7+")) %>%
+  #filter(rtsearch <= rt_extremes$upper && 
+           #rtsearch >= rt_extremes$lower) %>%
+  gather(measure, value, chosetarget, choseunique) %>%
+  group_by(targetsize, sizeasked, searchtype, measure) %>%
+  tidyboot_mean(value)
+
+ggplot(mean_data %>% filter(measure == "chosetarget"), 
+         aes(x = sizeasked, y = empirical_stat, color = targetsize)) +
+  facet_wrap(~searchtype) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), position = position_dodge(.25)) + 
+  theme_classic(base_size = 18)
+
+ggplot(mean_data %>% filter(measure %in% c("chosetarget", "choselure")),
+       aes(x = sizeasked, y = empirical_stat, fill = measure)) +
+  facet_grid(target_size~searchtype) + 
+  geom_col(aes(ymin = ci_lower, ymax = ci_upper), position = "stack") +
+  theme_classic(base_size = 18) + scale_fill_manual(values=c("#3333ff", "#ff5c33", "#668cfa"))
+
+
+
+
+
+# for color
+mean_data <- subjdata %>%
+  mutate(rtsearch = as.numeric(rtsearch)) %>%
+#  filter(age >= 5) %>%
+  # mutate(age_bin = factor(age >= median(subjs$age), 
+  #                         levels = c(FALSE, TRUE),
+  #                         labels = c("younger", "older"))) %>%
+  #mutate(age_bin = case_when(subage <= 4 ~ "<4",
+                             #subage <= 6 ~ "5-6",
+                             #T ~ "7+")) %>%
+  #filter(rtsearch <= rt_extremes$upper && 
+           #rtsearch >= rt_extremes$lower) %>%
+  gather(measure, value, chosetarget, choseunique, choselure) %>%
+  group_by(colorasked, searchtype, measure) %>%
+  tidyboot_mean(value)
+
+ggplot(mean_data %>% filter(measure == "choselure"),
+       aes(x = colorasked, y = empirical_stat)) +
+  facet_wrap(~searchtype) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), position = position_dodge(.25)) + 
+  theme_classic(base_size = 18)
+
+
+```
