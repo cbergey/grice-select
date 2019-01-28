@@ -1,0 +1,3204 @@
+{
+    "ApprovalTime": "2019-01-28T08:17:36Z",
+    "AutoApprovalTime": "2019-01-28T08:17:12Z",
+    "AssignmentId": "31UV0MXWNR1MQY2939TSN4269Q35IU",
+    "WorkerId": "A3RTU5HR290468",
+    "answers": {
+        "words": [],
+        "searchtype": "uniquetarget",
+        "targetsaturation": "bright",
+        "canclick": false,
+        "choselure": false,
+        "colors": [
+            "purple",
+            "green",
+            "blue",
+            "red"
+        ],
+        "choseunique": false,
+        "trialsounds": [
+            {
+                "url": "stimsounds/lomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightlomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darklomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightblicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkblicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/gade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightgade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkgade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/dax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightdax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkdax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/toma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brighttoma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darktoma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/zorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightzorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkzorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/quen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightquen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkquen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/sprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightsprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darksprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/boti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightboti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkboti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/koba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightkoba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkkoba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/wug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightwug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkwug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/flib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/brightflib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/darkflib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/brighttoma.m4a": {},
+                        "stimsounds/brightlomet.m4a": {},
+                        "stimsounds/brightflib.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/brightkoba.m4a": {},
+                        "stimsounds/darkzorp.m4a": {},
+                        "stimsounds/darktoma.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/darkboti.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/darkkoba.m4a": {},
+                        "stimsounds/brightquen.m4a": {},
+                        "stimsounds/darkflib.m4a": {},
+                        "stimsounds/brightboti.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/brightdax.m4a": {},
+                        "stimsounds/darkquen.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/darksprock.m4a": {},
+                        "stimsounds/darkgade.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/darkblicket.m4a": {},
+                        "stimsounds/brightzorp.m4a": {},
+                        "stimsounds/brightblicket.m4a": {},
+                        "stimsounds/darklomet.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/brightsprock.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/darkwug.m4a": {},
+                        "stimsounds/brightwug.m4a": {},
+                        "stimsounds/brightgade.m4a": {},
+                        "stimsounds/darkdax.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/quen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightflib.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkwug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/koba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/sprock.m4a": [
+                            {}
+                        ],
+                        "stimsounds/brightgade.m4a": [
+                            {}
+                        ],
+                        "stimsounds/darkdax.m4a": [
+                            {}
+                        ],
+                        "stimsounds/zorp.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            }
+        ],
+        "distractorcolor2": "",
+        "distractorsaturation": "dark",
+        "distractorcolor1": "",
+        "shapes": [],
+        "allstims": [
+            "lomet",
+            "brightlomet",
+            "darklomet",
+            "blicket",
+            "brightblicket",
+            "darkblicket",
+            "gade",
+            "brightgade",
+            "darkgade",
+            "dax",
+            "brightdax",
+            "darkdax",
+            "toma",
+            "brighttoma",
+            "darktoma",
+            "zorp",
+            "brightzorp",
+            "darkzorp",
+            "quen",
+            "brightquen",
+            "darkquen",
+            "sprock",
+            "brightsprock",
+            "darksprock",
+            "boti",
+            "brightboti",
+            "darkboti",
+            "koba",
+            "brightkoba",
+            "darkkoba",
+            "wug",
+            "brightwug",
+            "darkwug",
+            "flib",
+            "brightflib",
+            "darkflib"
+        ],
+        "chosetarget": false,
+        "targetword": "lomet",
+        "lurepos": 0,
+        "chosenname": "",
+        "uniqueness": [
+            false,
+            false,
+            false,
+            false
+        ],
+        "trialtype": 3,
+        "distractorshape1": "7",
+        "distractorshape2": "",
+        "brightnessasked": false,
+        "targetshape": "9",
+        "timestamp": "13:40",
+        "trialtypes": [
+            2,
+            4,
+            1,
+            2,
+            1,
+            3,
+            1,
+            3,
+            4,
+            4,
+            2,
+            3
+        ],
+        "objects": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "targetpos": 0,
+        "subage": 0,
+        "date": "1/28/2019",
+        "targetcolor": "purple",
+        "data": [
+            ",0,1,2,true,false,3red.jpg,3red.jpg,true,sedivy,false,3,red,bright,flib,20,,,,1/28/2019,13:40,32284,2,3,3,red,dark,3,red,bright,20,redbright\n",
+            ",0,2,4,true,false,14bluedesat.jpg,14bluedesat.jpg,true,uniquetarget,true,14,blue,dark,wug,8,,,,1/28/2019,13:40,7228,3,0,8,blue,bright,8,blue,bright,14,bluedark\n",
+            ",0,3,1,true,false,13blue.jpg,13blue.jpg,false,sedivy,false,13,blue,bright,koba,21,,,,1/28/2019,13:40,2933,1,2,13,blue,bright,21,blue,bright,13,bluedark\n",
+            ",0,4,2,false,false,11bluedesat.jpg,stim-images/object11blue.jpg,true,sedivy,false,11,blue,dark,boti,18,,,,1/28/2019,13:40,2870,2,1,18,blue,dark,11,blue,dark,11,bluebright\n",
+            ",0,5,1,false,true,1greendesat.jpg,stim-images/object2greendesat.jpg,false,sedivy,true,1,green,dark,sprock,2,,,,1/28/2019,13:40,3253,1,2,1,green,dark,2,green,dark,1,greenbright\n",
+            ",0,6,3,true,false,15blue.jpg,15blue.jpg,false,uniquetarget,true,15,blue,bright,quen,6,,,,1/28/2019,13:40,2535,1,0,15,blue,bright,6,blue,dark,6,bluedark\n",
+            ",0,7,1,false,true,4purple.jpg,stim-images/object22purple.jpg,false,sedivy,true,4,purple,bright,zorp,22,,,,1/28/2019,13:40,2638,1,2,4,purple,bright,22,purple,bright,4,purpledark\n",
+            ",0,8,3,false,false,16blue.jpg,stim-images/object12bluedesat.jpg,false,uniquetarget,false,16,blue,bright,toma,12,,,,1/28/2019,13:40,4417,1,0,16,blue,bright,12,blue,dark,12,bluedark\n",
+            ",0,9,4,false,false,19reddesat.jpg,stim-images/object10red.jpg,true,uniquetarget,false,19,red,dark,dax,10,,,,1/28/2019,13:40,5076,3,0,10,red,bright,10,red,bright,19,reddark\n",
+            ",0,10,4,false,false,5purple.jpg,stim-images/object23purpledesat.jpg,true,uniquetarget,false,5,purple,bright,gade,23,,,,1/28/2019,13:40,4801,3,0,23,purple,dark,23,purple,dark,5,purplebright\n",
+            ",0,11,2,false,true,24greendesat.jpg,stim-images/object17greendesat.jpg,true,sedivy,true,24,green,dark,blicket,17,,,,1/28/2019,13:40,3054,2,3,24,green,bright,24,green,dark,17,greendark\n",
+            ",0,12,3,false,false,9purple.jpg,stim-images/object7purpledesat.jpg,false,uniquetarget,false,9,purple,bright,lomet,7,,,,1/28/2019,13:40,3839,3,0,7,purple,dark,7,purple,dark,9,purplebright\n"
+        ],
+        "rtsearch": 3839,
+        "numclicks": 0,
+        "counter": 13,
+        "subid": "",
+        "values": [
+            "bright",
+            "dark"
+        ],
+        "starttime": 1548663115740,
+        "targetname": ""
+    },
+    "AcceptTime": "2019-01-28T08:09:40Z",
+    "HITId": "38Z7YZ2SB3R8X0NDXZCTXV28WN2QID",
+    "Assignment": "",
+    "AssignmentStatus": "Approved",
+    "SubmitTime": "2019-01-28T08:12:12Z"
+}

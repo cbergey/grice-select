@@ -1,0 +1,2767 @@
+{
+    "ApprovalTime": "2018-11-01T19:29:40Z",
+    "AutoApprovalTime": "2018-11-01T19:29:10Z",
+    "AssignmentId": "3RXCAC0YISERHPFGBJ0SECZH8EWG8X",
+    "WorkerId": "A1RTLF0OVZI4QT",
+    "answers": {
+        "words": [
+            "zorp",
+            "sprock",
+            "flib",
+            "dax"
+        ],
+        "searchtype": "uniquetarget",
+        "canclick": false,
+        "choselure": false,
+        "colors": [
+            "purple",
+            "red",
+            "blue",
+            "green"
+        ],
+        "choseunique": false,
+        "trialsounds": [
+            {
+                "url": "stimsounds/zorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigzorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallzorp.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/sprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigsprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallsprock.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/flib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigflib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallflib.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/dax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigdax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smalldax.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/gade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/biggade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallgade.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/lomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/biglomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smalllomet.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/wug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigwug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallwug.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/koba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigkoba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallkoba.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/quen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigquen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallquen.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/toma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigtoma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smalltoma.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/boti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigboti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallboti.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bigblicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/smallblicket.m4a",
+                "manager": {
+                    "bufferList": {
+                        "stimsounds/flib.m4a": {},
+                        "stimsounds/bigwug.m4a": {},
+                        "stimsounds/bigtoma.m4a": {},
+                        "stimsounds/biglomet.m4a": {},
+                        "stimsounds/lomet.m4a": {},
+                        "stimsounds/toma.m4a": {},
+                        "stimsounds/smallzorp.m4a": {},
+                        "stimsounds/smallsprock.m4a": {},
+                        "stimsounds/smallblicket.m4a": {},
+                        "stimsounds/smallwug.m4a": {},
+                        "stimsounds/smallboti.m4a": {},
+                        "stimsounds/quen.m4a": {},
+                        "stimsounds/zorp.m4a": {},
+                        "stimsounds/bigblicket.m4a": {},
+                        "stimsounds/smallflib.m4a": {},
+                        "stimsounds/smalltoma.m4a": {},
+                        "stimsounds/blicket.m4a": {},
+                        "stimsounds/boti.m4a": {},
+                        "stimsounds/bigkoba.m4a": {},
+                        "stimsounds/bigzorp.m4a": {},
+                        "stimsounds/bigboti.m4a": {},
+                        "stimsounds/dax.m4a": {},
+                        "stimsounds/smallkoba.m4a": {},
+                        "stimsounds/koba.m4a": {},
+                        "stimsounds/sprock.m4a": {},
+                        "stimsounds/smalldax.m4a": {},
+                        "stimsounds/smallgade.m4a": {},
+                        "stimsounds/smalllomet.m4a": {},
+                        "stimsounds/wug.m4a": {},
+                        "stimsounds/bigquen.m4a": {},
+                        "stimsounds/bigdax.m4a": {},
+                        "stimsounds/smallquen.m4a": {},
+                        "stimsounds/bigsprock.m4a": {},
+                        "stimsounds/biggade.m4a": {},
+                        "stimsounds/bigflib.m4a": {},
+                        "stimsounds/gade.m4a": {}
+                    },
+                    "playingSounds": {
+                        "stimsounds/bigkoba.m4a": [
+                            {}
+                        ],
+                        "stimsounds/wug.m4a": [
+                            {}
+                        ],
+                        "stimsounds/bigboti.m4a": [
+                            {}
+                        ],
+                        "stimsounds/lomet.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallquen.m4a": [
+                            {}
+                        ],
+                        "stimsounds/toma.m4a": [
+                            {}
+                        ],
+                        "stimsounds/smallblicket.m4a": [
+                            {}
+                        ],
+                        "stimsounds/gade.m4a": [
+                            {}
+                        ]
+                    },
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            }
+        ],
+        "distractorcolor2": "purple",
+        "distractorcolor1": "green",
+        "shapes": [
+            "12",
+            "9",
+            "13",
+            "10"
+        ],
+        "allstims": [
+            "zorp",
+            "bigzorp",
+            "smallzorp",
+            "sprock",
+            "bigsprock",
+            "smallsprock",
+            "flib",
+            "bigflib",
+            "smallflib",
+            "dax",
+            "bigdax",
+            "smalldax",
+            "gade",
+            "biggade",
+            "smallgade",
+            "lomet",
+            "biglomet",
+            "smalllomet",
+            "wug",
+            "bigwug",
+            "smallwug",
+            "koba",
+            "bigkoba",
+            "smallkoba",
+            "quen",
+            "bigquen",
+            "smallquen",
+            "toma",
+            "bigtoma",
+            "smalltoma",
+            "boti",
+            "bigboti",
+            "smallboti",
+            "blicket",
+            "bigblicket",
+            "smallblicket"
+        ],
+        "chosetarget": false,
+        "targetword": "gade",
+        "lurepos": 0,
+        "chosenname": "",
+        "uniqueness": [
+            false,
+            false,
+            false,
+            false
+        ],
+        "trialtype": 3,
+        "distractorshape1": "19",
+        "distractorshape2": "None",
+        "targetshape": "3",
+        "targetsize": "big",
+        "sizeasked": false,
+        "timestamp": "14:23",
+        "distractorsize": "small",
+        "trialtypes": [
+            4,
+            2,
+            1,
+            2,
+            4,
+            1,
+            3,
+            3
+        ],
+        "objects": [
+            [
+                null,
+                null
+            ],
+            [
+                null,
+                null
+            ],
+            [
+                null,
+                null
+            ]
+        ],
+        "targetpos": 0,
+        "subage": 0,
+        "date": "11/1/2018",
+        "targetcolor": "red",
+        "data": [
+            ",1,4,true,false,2red.jpg,2red.jpg,true,uniquetarget,true,2,red,blicket,15,None,blue,purple,11/1/2018,14:23,4953,3,0,15,purple,15,blue,2,red\n",
+            ",2,2,false,true,16redbig.jpg,stim-images/object6redbig.jpg,true,sedivy,true,16,red,boti,6,None,None,None,11/1/2018,14:23,4470,2,3,16,None,16,red,6,red\n",
+            ",3,1,false,true,18purplebig.jpg,stim-images/object7purplebig.jpg,false,sedivy,true,18,purple,toma,7,None,None,None,11/1/2018,14:23,4413,1,2,18,purple,7,purple,18,None\n",
+            ",4,2,true,false,8bluesmall.jpg,8bluesmall.jpg,true,sedivy,false,8,blue,quen,5,None,None,None,11/1/2018,14:23,4902,2,3,8,None,8,blue,5,blue\n",
+            ",5,4,true,false,1purple.jpg,1purple.jpg,true,uniquetarget,true,1,purple,koba,14,None,green,blue,11/1/2018,14:23,4327,2,0,14,green,1,purple,14,blue\n",
+            ",6,1,false,true,11bluesmall.jpg,stim-images/object17bluesmall.jpg,false,sedivy,true,11,blue,wug,17,None,None,None,11/1/2018,14:23,3885,3,2,11,None,17,blue,11,blue\n",
+            ",7,3,true,false,4purple.jpg,4purple.jpg,false,uniquetarget,true,4,purple,lomet,20,None,blue,red,11/1/2018,14:23,3302,2,0,20,red,4,purple,20,blue\n",
+            ",8,3,false,false,3red.jpg,stim-images/object19redsmall.jpg,false,uniquetarget,false,3,red,gade,19,None,green,purple,11/1/2018,14:23,4376,2,0,19,purple,3,red,19,green\n"
+        ],
+        "rtsearch": 4376,
+        "numclicks": 0,
+        "counter": 9,
+        "subid": "",
+        "starttime": 1541100241372,
+        "targetname": ""
+    },
+    "AcceptTime": "2018-11-01T19:22:17Z",
+    "HITId": "3M7OI89LVYDOAFITQG29GNNMEJ3C6W",
+    "Assignment": "",
+    "AssignmentStatus": "Approved",
+    "SubmitTime": "2018-11-01T19:24:10Z"
+}

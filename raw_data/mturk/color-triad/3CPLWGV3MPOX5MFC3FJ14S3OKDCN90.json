@@ -1,0 +1,819 @@
+{
+    "ApprovalTime": "2018-10-11T10:24:25Z",
+    "AutoApprovalTime": "2018-10-11T10:23:44Z",
+    "AssignmentId": "3CPLWGV3MPOX5MFC3FJ14S3OKDCN90",
+    "WorkerId": "AYO97APRSEJFA",
+    "answers": {
+        "words": [],
+        "searchtype": "uniquetarget",
+        "canclick": false,
+        "choselure": false,
+        "colors": [
+            "red",
+            "green",
+            "purple",
+            "blue"
+        ],
+        "choseunique": false,
+        "trialsounds": [
+            {
+                "url": "stimsounds/quen.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redquen.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenquen.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplequen.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluequen.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/lomet.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redlomet.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenlomet.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplelomet.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluelomet.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/gade.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redgade.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greengade.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplegade.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluegade.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/flib.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redflib.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenflib.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purpleflib.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blueflib.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/toma.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redtoma.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greentoma.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purpletoma.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluetoma.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/dax.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/reddax.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greendax.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purpledax.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluedax.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/sprock.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redsprock.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greensprock.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplesprock.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluesprock.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/koba.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redkoba.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenkoba.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplekoba.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluekoba.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/wug.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redwug.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenwug.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplewug.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluewug.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/zorp.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redzorp.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenzorp.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purplezorp.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/bluezorp.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blicket.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redblicket.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenblicket.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purpleblicket.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blueblicket.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/boti.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/redboti.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/greenboti.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/purpleboti.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            },
+            {
+                "url": "stimsounds/blueboti.m4a",
+                "manager": {
+                    "bufferList": {},
+                    "playingSounds": {},
+                    "context": {}
+                },
+                "settings": {
+                    "loop": false
+                }
+            }
+        ],
+        "distractorcolor2": "purple",
+        "distractorcolor1": "red",
+        "shapes": [],
+        "allstims": [
+            "quen",
+            "redquen",
+            "greenquen",
+            "purplequen",
+            "bluequen",
+            "lomet",
+            "redlomet",
+            "greenlomet",
+            "purplelomet",
+            "bluelomet",
+            "gade",
+            "redgade",
+            "greengade",
+            "purplegade",
+            "bluegade",
+            "flib",
+            "redflib",
+            "greenflib",
+            "purpleflib",
+            "blueflib",
+            "toma",
+            "redtoma",
+            "greentoma",
+            "purpletoma",
+            "bluetoma",
+            "dax",
+            "reddax",
+            "greendax",
+            "purpledax",
+            "bluedax",
+            "sprock",
+            "redsprock",
+            "greensprock",
+            "purplesprock",
+            "bluesprock",
+            "koba",
+            "redkoba",
+            "greenkoba",
+            "purplekoba",
+            "bluekoba",
+            "wug",
+            "redwug",
+            "greenwug",
+            "purplewug",
+            "bluewug",
+            "zorp",
+            "redzorp",
+            "greenzorp",
+            "purplezorp",
+            "bluezorp",
+            "blicket",
+            "redblicket",
+            "greenblicket",
+            "purpleblicket",
+            "blueblicket",
+            "boti",
+            "redboti",
+            "greenboti",
+            "purpleboti",
+            "blueboti"
+        ],
+        "chosetarget": false,
+        "targetword": "quen",
+        "lurepos": 0,
+        "chosenname": "",
+        "uniqueness": [
+            false,
+            false,
+            false,
+            false
+        ],
+        "trialtype": 3,
+        "distractorshape1": "17",
+        "distractorshape2": "None",
+        "targetshape": "24",
+        "timestamp": "3:14",
+        "trialtypes": [
+            1,
+            2,
+            2,
+            3,
+            1,
+            4,
+            4,
+            3,
+            4,
+            2,
+            1,
+            3
+        ],
+        "objects": [
+            [
+                null,
+                null
+            ],
+            [
+                null,
+                null
+            ],
+            [
+                null,
+                null
+            ]
+        ],
+        "targetpos": 0,
+        "subage": 0,
+        "date": "10/11/2018",
+        "colorasked": false,
+        "targetcolor": "green",
+        "data": [
+            ",0,1,1,false,false,22purple.jpg,stim-images/object22blue.jpg,false,sedivy,false,22,purple,boti,13,None,blue,None,10/11/2018,3:14,2625,3,1,13,purple,22,blue,22,purple\n",
+            ",0,2,2,false,false,12red.jpg,stim-images/object12blue.jpg,true,sedivy,false,12,red,blicket,15,None,blue,None,10/11/2018,3:14,2603,1,3,12,red,12,blue,15,red\n",
+            ",0,3,2,false,true,11red.jpg,stim-images/object16red.jpg,true,sedivy,true,11,red,zorp,16,None,blue,None,10/11/2018,3:14,3433,1,3,11,red,11,blue,16,red\n",
+            ",0,4,3,true,false,6green.jpg,6green.jpg,false,uniquetarget,true,6,green,wug,8,None,blue,red,10/11/2018,3:14,2655,1,0,6,green,8,blue,8,red\n",
+            ",0,5,1,true,false,21green.jpg,21green.jpg,false,sedivy,false,21,green,koba,4,None,blue,None,10/11/2018,3:14,2674,1,3,21,green,21,blue,4,green\n",
+            ",0,6,4,true,false,20green.jpg,20green.jpg,true,uniquetarget,true,20,green,sprock,18,None,red,blue,10/11/2018,3:14,6125,1,0,20,green,18,red,18,blue\n",
+            ",0,7,4,true,false,7green.jpg,7green.jpg,true,uniquetarget,true,7,green,dax,23,None,purple,blue,10/11/2018,3:14,2796,1,0,7,green,23,purple,23,blue\n",
+            ",0,8,3,false,false,2green.jpg,stim-images/object3red.jpg,false,uniquetarget,false,2,green,toma,3,None,red,blue,10/11/2018,3:14,2709,3,0,3,blue,3,red,2,green\n",
+            ",0,9,4,true,false,9blue.jpg,9blue.jpg,true,uniquetarget,true,9,blue,flib,1,None,green,purple,10/11/2018,3:14,2789,1,0,9,blue,1,green,1,purple\n",
+            ",0,10,2,true,false,14green.jpg,14green.jpg,true,sedivy,false,14,green,gade,10,None,red,None,10/11/2018,3:14,2964,1,3,14,green,14,red,10,green\n",
+            ",0,11,1,false,false,5red.jpg,stim-images/object5blue.jpg,false,sedivy,false,5,red,lomet,19,None,blue,None,10/11/2018,3:14,2541,1,2,5,red,19,red,5,blue\n",
+            ",0,12,3,true,false,24green.jpg,24green.jpg,false,uniquetarget,true,24,green,quen,17,None,red,purple,10/11/2018,3:14,4304,3,0,17,red,17,purple,24,green\n"
+        ],
+        "rtsearch": 4304,
+        "numclicks": 0,
+        "counter": 13,
+        "subid": "",
+        "starttime": 1539253106668,
+        "targetname": ""
+    },
+    "AcceptTime": "2018-10-11T10:13:39Z",
+    "HITId": "3AC6MFV69K7HFXDKEDDLOCDXUNHZH9",
+    "Assignment": "",
+    "AssignmentStatus": "Approved",
+    "SubmitTime": "2018-10-11T10:18:44Z"
+}
