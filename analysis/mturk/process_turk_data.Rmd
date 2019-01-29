@@ -1,0 +1,90 @@
+---
+title: "griceselectanalysismturk"
+output: html_document
+---
+
+```{r load_libraries}
+library(tidyverse)
+library(jsonlite)
+library(here)
+library(tidyboot)
+library(anonymizer)
+
+theme_set(theme_classic(base_size = 18))
+```
+
+```{r names}
+ 
+brightdark_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
+  
+greyer_names  <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "descriptor","searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1",  "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
+  
+grey_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "descriptor","searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
+  
+color_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+
+scalar_names <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+```
+
+```{r make_mappings}
+newnames <- tibble(type = c("brightdark", "greyer", "grey", "color", "scalar"),
+                   names = list(brightdark_names, greyer_names, grey_names, color_names, scalar_names))
+
+dirs <- here("raw_data/mturk")
+
+dirs <- list.dirs(here("raw_data/mturk"), full.names = F) 
+
+mappings <- tibble(dir = dirs) %>%
+  filter(dir != "") %>%
+  rowwise() %>%
+  mutate(type = str_split(dir, "-")[[1]][1]) %>%
+  left_join(newnames)
+```
+
+```{r read_files}
+read_grice_data <- function(df) {
+  
+  read_grice_file <- function(file, newnames) {
+  
+    json_out <- fromJSON(file)
+    id <- json_out$WorkerId
+    
+    raw_data <- json_out$answers$data 
+    
+    data <- raw_data[] %>%
+        as_tibble %>%
+        separate(value, into = newnames, sep = ",") %>%
+        mutate(subid = id)
+  }
+  
+  dir <- paste0(here("raw_data/mturk/"), df$dir)
+ 
+  files <- list.files(dir, pattern = ".json", full.names = T, recursive = T) %>%
+    unlist()
+    
+  map_df(files, ~read_grice_file(., df %>% pull(names) %>% unlist()))
+}
+
+raw_data <- mappings %>%
+  ungroup() %>%
+  group_by(type) %>%
+  nest() %>%
+  mutate(raw_data = map(data, read_grice_data)) %>%
+  select(-data) %>%
+  unnest()
+```
+
+```{r tidy_data}
+data <- raw_data %>%
+  select(type, subid, trialtype, chosetarget, choselure, choseunique, searchtype, 
+         brightnessasked, colorasked, sizeasked, targetcolor, targetshape, 
+         targetsaturation, targetword, rtsearch) %>%
+  gather(adjective_type, adjective_used, brightnessasked, colorasked, sizeasked) %>%
+  mutate_at(vars(chosetarget, choselure, choseunique, adjective_used), as.logical) %>%
+  filter(!is.na(adjective_used)) %>%
+  select(-adjective_type, -trialtype) %>%
+  mutate(subid = salt(subid, .seed = 400)) %>%
+  mutate(subid = as.numeric(as.factor(subid)))
+
+write_csv(data, here("data/turk_data.csv"))
+```
