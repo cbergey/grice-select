@@ -37,3 +37,6 @@ rsconnect/
 
 raw_data/*
 */cosub/*
+
+.DS_Store
+.Rproj.user

@@ -4,120 +4,47 @@ output: html_document
 ---
 
 ```{r load_libraries}
-library("rjson")
-library("jsonlite")
-library("purrr")
 library(tidyverse)
+library(here)
+library(ggthemes)
 library(tidyboot)
 
 theme_set(theme_classic(base_size = 18))
 ```
 
+```{r read_data}
+data <- read_csv(here("data/turk_data.csv")) %>%
+  gather(item, chose, chosetarget, choselure, choseunique) %>%
+  mutate(item = gsub("chose", "", item))
+```
 
-```{r read_files}
-dirs <- c("mturk/brightdark-triad/")
+```{r mean}
+mean_data <- data %>%
+  filter(item != "unique") %>%
+  group_by(type, searchtype, adjective_used, item, subid) %>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup() %>%
+  mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
 
-files <- map(dirs, ~list.files(.x, pattern = ".json", full.names = T)) %>%
-  unlist()
+```{r unique, fig.width = 10}
+ggplot(mean_data %>% filter(searchtype == "uniquetarget", item == "target"), 
+       aes(x = adjective_used, color = type)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat),
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("")
+```
 
-#for color
-read_grice_file <- function(file) {
-  
-  json_out <- fromJSON(file)
-  id <- json_out$WorkerId
-  
-  raw_data <- json_out$answers$data 
-  
-  #names <- strsplit(raw_data[1], ",")
-  
-  #for brightdark
-  newnames <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
-  
-  #forgreyer
-  #newnames <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "descriptor","searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1",  "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
-  
-  #for grey
-  #newnames <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "brightnessasked", "descriptor","searchtype","choseunique", "targetshape", "targetcolor", "targetsaturation","targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj1saturation","obj2shape","obj2color","obj2saturation","obj3shape","obj3color","obj3saturation")
-  
-  #for color
-  #newnames <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
-data <- raw_data[] %>%
-    as_data_frame() %>%
-    separate(value, into = newnames, sep = ",")
-  
-  data <- data %>%
-    mutate(subid = id)
-    
-}
-
-#for scalar
-read_grice_file <- function(file) {
-  
-  json_out <- fromJSON(file)
-  id <- json_out$WorkerId
-  
-  raw_data <- json_out$answers$data 
-  
-  #names <- strsplit(raw_data[1], ",")
-  
-  newnames <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
-data <- raw_data[] %>%
-    as_data_frame() %>%
-    separate(value, into = newnames, sep = ",")
-  
-  data <- data %>%
-    mutate(subid = id)
-}
-  
-
-raw_data <- map(files, read_grice_file) %>%
-  bind_rows()
-
-subjdata <- raw_data %>%
-   mutate(chosetarget = as.integer(as.logical(chosetarget))) %>%
-   mutate(choseunique = as.integer(as.logical(choseunique))) %>%
-   mutate(choselure = as.integer(as.logical(choselure))) 
-
-subjs <- subjdata %>%
-  distinct(subid, .keep_all = T)
-
-# for color
-mean_data <- subjdata %>%
-  mutate(rtsearch = as.numeric(rtsearch)) %>%
-  gather(measure, value, chosetarget, choseunique, choselure) %>%
-  group_by(brightnessasked, searchtype, measure) %>%
-  tidyboot_mean(value)
-
-ggplot(mean_data %>% filter(measure == "choselure"),
-       aes(x = colorasked, y = empirical_stat)) +
-  facet_wrap(~searchtype) + 
-  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), position = position_dodge(.25)) + 
-  theme_classic(base_size = 18)
-
-ggplot(mean_data %>% filter(measure %in% c("chosetarget", "choselure")),
-       aes(x = brightnessasked, y = empirical_stat, fill = measure)) +
-  facet_wrap(~searchtype) + 
-  geom_col(aes(ymin = ci_lower, ymax = ci_upper), position = "stack") +
-  theme_classic(base_size = 18) + scale_fill_manual(values=c("#3333ff", "#ff5c33", "#668cfa"))
-
-# for scalar
-mean_data <- subjdata %>%
-  mutate(rtsearch = as.numeric(rtsearch)) %>%
-  gather(measure, value, chosetarget, choseunique, choselure) %>%
-  group_by(sizeasked, searchtype, measure) %>%
-  tidyboot_mean(value)
-
-ggplot(mean_data %>% filter(measure == "chosetarget"),
-       aes(x = sizeasked, y = empirical_stat)) +
-  facet_wrap(~searchtype) + 
-  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), position = position_dodge(.25)) + 
-  theme_classic(base_size = 18)
-
-ggplot(mean_data %>% filter(measure %in% c("chosetarget", "choselure")),
-       aes(x = sizeasked, y = empirical_stat, fill = measure)) +
-  facet_wrap(~searchtype) + 
-  geom_col(aes(ymin = ci_lower, ymax = ci_upper), position = "stack") +
-  theme_classic(base_size = 18) + scale_fill_manual(values=c("#3333ff", "#ff5c33", "#668cfa"))
-
-
+```{r sedivy, fig.width = 10}
+ggplot(mean_data %>% filter(searchtype == "sedivy"), 
+       aes(x = type, color = adjective_used)) +
+  facet_wrap(~ item) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat),
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("")
 ```
