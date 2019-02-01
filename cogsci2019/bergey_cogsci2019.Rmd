@@ -9,7 +9,7 @@ author-information: >
 
 abstract: 
 
-  "When communicating, humans often encounter referential ambiguity."
+  "Human listeners are often faced with referential ambiguity. One way they reduce ambiguity is by using description to narrow down referents. Beyond narrowing referents to those that match a descriptor, listeners may infer that a described referent is also one that would have needed description to be identified uniquely—that it contrasts with other relevant objects of the same type. This kind of contrastive inference is known to operate in online processing as listeners try to pick a referent as a referential utterance progresses (Sedivy et al., 1999; Sedivy, 2003). However, it is not known whether listeners use this type of inference to explicitly resolve referential ambiguity: to guide their choice of a referent. In three experiments, we test whether adult listeners use color and size adjectives contrastively to guide their mapping of a novel word onto a novel referent. We find that while they use size adjectives contrastively to guide referent choice, they do not do so with color adjectives (Experiment 1). Further, even when color is described with more relative language (Experiment 2) or emphasized with prosodic contrastive stress (Experiment 3), participants do not consistently interpret color contrastively to guide referent choice."
 
 #     "The abstract should be one paragraph, indented 1/8 inch on both sides,
 # in 9 point font with single spacing. The heading Abstract should
