@@ -69,7 +69,8 @@ When communicating, humans often encounter referential ambiguity.
 reference resolution; pragmatics; prenominal adjectives
 \end{abstract}
 
-\section{Introduction}\label{introduction}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
 When trying to communicate, human listeners are faced with uncertainty.
 Novice listeners---children---face a continuous speech stream filled
@@ -145,7 +146,8 @@ word--referent mappings. Across the developmental span, contrastive
 inference could help listeners exploit regularities in language and
 their environment to learn about both.
 
-\section{Experiment 1}\label{experiment-1}
+\hypertarget{experiment-1}{%
+\section{Experiment 1}\label{experiment-1}}
 
 In Experiment 1, we test whether adult participants use adjective
 contrast to choose a novel referent. To examine whether contrast occurs
@@ -174,7 +176,8 @@ a more consistent contrastive inference.
 
 \caption[Example of a contrastive trial in which the critical feature is color]{Example of a contrastive trial in which the critical feature is color. Here, the participant would hear the instruction ``Find the red dax.'' The target is the top object.}\label{fig:colortrial}
 \end{figure}
-\end{CodeChunk}\begin{CodeChunk}
+\end{CodeChunk}
+\begin{CodeChunk}
 \begin{figure}[H]
 
 {\centering \includegraphics{figs/sizetrial-1} 
@@ -185,16 +188,19 @@ a more consistent contrastive inference.
 \end{figure}
 \end{CodeChunk}
 
-\subsection{Methods}\label{methods}
+\hypertarget{method}{%
+\subsection{Method}\label{method}}
 
-\subsubsection{Participants}\label{participants}
+\hypertarget{participants.}{%
+\subsubsection{Participants.}\label{participants.}}
 
-Eighty participants were recruited from Amazon Mechanical Turk. Forty
-participants were assigned to a condition in which the critical feature
-was color (stimuli contrasted on color), and 40 participants were
-assigned to a condition in which the critical feature was size.
+Sixty participants were recruited from Amazon Mechanical Turk:
+40participants were assigned to a condition in which the critical
+feature was color (stimuli contrasted on color), and 20 participants
+were assigned to a condition in which the critical feature was size.
 
-\subsubsection{Stimuli}\label{stimuli}
+\hypertarget{stimuli.}{%
+\subsubsection{Stimuli.}\label{stimuli.}}
 
 Stimulus displays were arrays of three novel fruit objects. Fruits were
 chosen randomly at each trial from 25 fruit kinds. Ten of the 25 fruit
@@ -211,7 +217,8 @@ not critical feature), and a lure (matches the target's critical feature
 but not shape). The positions of the target and distractor items were
 randomized within a triad configuration.
 
-\subsubsection{Procedure}\label{procedure}
+\hypertarget{design-and-procedure.}{%
+\subsubsection{Design and Procedure.}\label{design-and-procedure.}}
 
 Participants were told they would play a game in which they would search
 for strange alien fruits. In the size condition, each participant saw
@@ -227,33 +234,74 @@ lomet. In the size condition, the size of the target (big or small) was
 also crossed with display type and instruction type. All experiment code
 is available on GitHub and will be accessible at time of acceptance.
 
-\subsection{Results}\label{results}
+\hypertarget{results}{%
+\subsection{Results}\label{results}}
 
-On unique target trials in which a descriptor was given, participants
-correctly chose the target XX\% and XX\% in the color and size
-conditions respectively. When the target was not described on unique
-target trials, participants chose the target XX\% of the time in the
-color contrast condition and XX\% of the time in the size contrast
-condition, showing a general tendency to choose the unique object even
-without a descriptor. This bias towards unique objects is likely due to
-the definite determiner, ``the.'' On contrastive trials, when a
-descriptor was not given, participants were unlikely to choose the
-target, doing so at XX\% and XX\% for color and size respectively (both
-significantly below chance of 33\%). They were most likely to choose the
-unique object in these displays, at XX\% and XX\% for color and size
-respectively. Our key test was whether participants would choose the
-target object on contrastive trials when description was given,
-reflecting use of a contrastive inference to choose a novel referent. In
-the size condition, participants chose the target object XX\% of the
-time, showing a consistent ability to use size contrast to resolve
-referential ambiguity (significantly above chance, XXXXXX). However, in
-the color condition, participants chose randomly between the target and
-the lure (which matched the target on the described adjective). Here,
-participants showed a clear ability to use adjective contrast on size to
-disambiguate novel referents, but failed to show this ability with color
-adjectives.
+\begin{CodeChunk}
+\begin{figure*}[tb]
 
-\section{Experiment 2}\label{experiment-2}
+{\centering \includegraphics{figs/e1_fig-1} 
+
+}
+
+\caption[Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided]{Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided. Points indicate group means, error bars indicate 95\% confidence intervals computer by non-parametric bootstrapping}\label{fig:e1_fig}
+\end{figure*}
+\end{CodeChunk}
+
+We first confirmed that participants understood the task by analyzed
+performance on trials where there was a target unique on both shape and
+the relevant contrast adjective. We thus asked whether participants
+chose the target more often than expected by chance (\(33\%\)) by
+fitting a mixed effects logistic regression with an intercept term, and
+a random effect of subject, and an offset of \(logit(1/3)\) to set
+chance probability to the correct the level. The intercept term was
+reliably different from zero for both color (\(\beta =\) 1.13, \(t =\)
+4.01, \(p\) \textless{} .001) and size (\(\beta =\) 1.54, \(t =\) 4.46,
+\(p\) \textless{} .001). In addition, participants were more likely to
+select the target when an adjective was provided in both conditions. We
+confirmed this effect statistically by fitting a mixed effects logistic
+regression predicting target selection from condition, adjective use,
+and their interaction with random effects of participants. Adjective
+type (color vs.~size) was not statistically related to target choice
+(\(\beta =\) 0.77, \(t =\) 1.16, \(p =\) .245), but adjective use
+increased target choice (\(\beta =\) 1.81, \(t =\) 4.46, \(p\)
+\textless{} .001). The two effects did not interact (\(\beta =\) 0.72,
+\(t =\) 0.76, \(p =\) .445).
+
+When the target was not described on unique target trials, participants
+chose the target XX\% of the time in the color contrast condition and
+XX\% of the time in the size contrast condition, showing a general
+tendency to choose the unique object even without a descriptor. This
+bias towards unique objects is likely due to the definite determiner,
+``the.'' On contrastive trials, when a descriptor was not given,
+participants were unlikely to choose the target, doing so at XX\% and
+XX\% for color and size respectively (both significantly below chance of
+33\%). They were most likely to choose the unique object in these
+displays, at XX\% and XX\% for color and size respectively. Our key test
+was whether participants would choose the target object on contrastive
+trials when description was given, reflecting use of a contrastive
+inference to choose a novel referent. In the size condition,
+participants chose the target object XX\% of the time, showing a
+consistent ability to use size contrast to resolve referential ambiguity
+(significantly above chance, XXXXXX). However, in the color condition,
+participants chose randomly between the target and the lure (which
+matched the target on the described adjective). Here, participants
+showed a clear ability to use adjective contrast on size to disambiguate
+novel referents, but failed to show this ability with color adjectives.
+
+\hypertarget{experiment-2}{%
+\section{Experiment 2}\label{experiment-2}}
+
+\begin{CodeChunk}
+\begin{figure*}[tb]
+
+{\centering \includegraphics{figs/e2_fig-1} 
+
+}
+
+\caption[Experiment 2]{Experiment 2}\label{fig:e2_fig}
+\end{figure*}
+\end{CodeChunk}
 
 The results of Experiment 1 demonstrate that adult listeners interpret
 color and size adjectives differently, attributing more contrastive
@@ -279,9 +327,11 @@ explanations of the contrastive differences between adjective types that
 are stimulus-specific---such as some contrasts being more visually
 salient---to which our first experiment is susceptible.
 
-\subsection{Methods}\label{methods-1}
+\hypertarget{methods}{%
+\subsection{Methods}\label{methods}}
 
-\subsubsection{Participants}\label{participants-1}
+\hypertarget{participants}{%
+\subsubsection{Participants}\label{participants}}
 
 One hundred and twenty participants were recruited from Amazon
 Mechanical Turk. Forty participants were assigned to a condition in
@@ -291,7 +341,8 @@ was relative color (blueish, greyish), and 40 participants were assigned
 to a condition in which the critical feature was relative brightness
 (bright, dark).
 
-\subsubsection{Stimuli}\label{stimuli-1}
+\hypertarget{stimuli}{%
+\subsubsection{Stimuli}\label{stimuli}}
 
 Stimulus displays are arrays of three novel fruit objects, similar to
 those used in Experiment 1. Each fruit kind has an instance each of four
@@ -304,7 +355,8 @@ shape and in value/saturation. In a contrastive display, the target
 matches one distractor in shape but not value/saturation, and the other
 distractor in value/saturation but not shape (the lure).
 
-\subsubsection{Procedure}\label{procedure-1}
+\hypertarget{procedure}{%
+\subsubsection{Procedure}\label{procedure}}
 
 Instructions and trial structure were identical to Experiment 1.
 Displays differed as described above. Audio instructions diverged, this
@@ -324,7 +376,8 @@ blueish, greenish, or purplish; or greyish), and relative brightness
 \end{figure}
 \end{CodeChunk}
 
-\subsection{Results}\label{results-1}
+\hypertarget{results-1}{%
+\subsection{Results}\label{results-1}}
 
 On unique target trials when a descriptor was given, participants
 correctly chose the target XX\%, XX\%, and XX\% of the time in the
@@ -343,7 +396,8 @@ since two objects in each contrastive display fit the adjective
 description). Participants did not consistently demonstrate a
 contrastive interpretation in their referent choices.
 
-\section{Experiment 3}\label{experiment-3}
+\hypertarget{experiment-3}{%
+\section{Experiment 3}\label{experiment-3}}
 
 The results of Experiment 2 suggest that color is not easily interpreted
 contrastively, even when descriptors suggest a scalar interpretation.
@@ -365,9 +419,11 @@ contrastive stress. In Experiment 3, we test whether adding contrastive
 stress on the adjective in our instructions facilitates a contrastive
 interpretation.
 
-\subsection{Methods}\label{methods-2}
+\hypertarget{methods-1}{%
+\subsection{Methods}\label{methods-1}}
 
-\subsubsection{Participants}\label{participants-2}
+\hypertarget{participants-1}{%
+\subsubsection{Participants}\label{participants-1}}
 
 Eighty participants were recruited from Amazon Mechanical Turk. Forty
 participants were assigned to a condition identical to the color
@@ -377,18 +433,21 @@ assigned to a condition identical to the size contrast condition in
 Experiment 1, with the modification that audio stimuli included stress
 on the size adjective.
 
-\subsubsection{Stimuli}\label{stimuli-2}
+\hypertarget{stimuli-1}{%
+\subsubsection{Stimuli}\label{stimuli-1}}
 
 Stimulus displays were identical to those in Experiment 1. Audio stimuli
 were recorded such that utterances containing an adjective had
 contrastive stress on the adjective (e.g., ``Find the \emph{small}
 blicket'').
 
-\subsubsection{Procedure}\label{procedure-2}
+\hypertarget{procedure-1}{%
+\subsubsection{Procedure}\label{procedure-1}}
 
 Instructions and trial structure were identical to Experiment 1.
 
-\subsection{Results}\label{results-2}
+\hypertarget{results-2}{%
+\subsection{Results}\label{results-2}}
 
 On unique target trials when a descriptor was given, participants
 correctly chose the target XX\% and XX\% of the time in the color and
@@ -406,7 +465,8 @@ contrastive interpretation (XXXX). However, participants in the color
 adjective condition failed to choose the target at above chance levels
 (XXXX).
 
-\section{Discussion}\label{discussion}
+\hypertarget{discussion}{%
+\section{Discussion}\label{discussion}}
 
 In this series of experiments, we asked whether listeners could use
 pragmatic contrast to resolve referential ambiguity. Consistently,
@@ -461,87 +521,86 @@ to research further the development of these contrastive skills, as well
 as their potential as tools for extracting information from language and
 context.
 
-\section{Conclusion}\label{conclusion}
-
-We establish here that adult listeners are able to use contrastive
-inference to map novel words to novel referents. This ability is
-limited, however: it emerges with size but not color description. This
-result accords with findings that size adjectives more reliably evoke
-contrast in eye-tracking measures (Sedivy, 2003). Our manipulations in
-Experiment 2 to make color more relative, which did not result in
-contrastive inference, suggest that an explanation of size's effect
-based only on its scalar nature is insufficient. An account that relates
-production norms to listener interpretation may better explain our
-findings. Further research to determine the relationship between
+\#Conclusion We establish here that adult listeners are able to use
+contrastive inference to map novel words to novel referents. This
+ability is limited, however: it emerges with size but not color
+description. This result accords with findings that size adjectives more
+reliably evoke contrast in eye-tracking measures (Sedivy, 2003). Our
+manipulations in Experiment 2 to make color more relative, which did not
+result in contrastive inference, suggest that an explanation of size's
+effect based only on its scalar nature is insufficient. An account that
+relates production norms to listener interpretation may better explain
+our findings. Further research to determine the relationship between
 contrastive production and contrastive inference across adjective types,
 as well as the relationship between implicit measures of contrastive
 inference and explicit referent choice, is ongoing.
 
-\section*{References}\label{references}
+\hypertarget{references}{%
+\section*{References}\label{references}}
 \addcontentsline{toc}{section}{References}
 
 \hypertarget{refs}{}
-\hypertarget{ref-diesendruck_childrens_2006}{}
+\leavevmode\hypertarget{ref-diesendruck_childrens_2006}{}%
 Diesendruck, G., Hall, D. G., \& Graham, S. A. (2006). Children's Use of
 Syntactic and Pragmatic Knowledge in the Interpretation of Novel
 Adjectives. \emph{Child Development}, \emph{77}(1), 16--30.
 \url{http://doi.org/10.1111/j.1467-8624.2006.00853.x}
 
-\hypertarget{ref-eberhard_eye_1995}{}
+\leavevmode\hypertarget{ref-eberhard_eye_1995}{}%
 Eberhard, K. M., Spivey-Knowlton, M. J., Sedivy, J. C., \& Tanenhaus, M.
 K. (1995). Eye movements as a window into real-time spoken language
 comprehension in natural contexts. \emph{Journal of Psycholinguistic
 Research}, \emph{24}(6), 409--436.
 \url{http://doi.org/10.1007/BF02143160}
 
-\hypertarget{ref-gelman_implicit_1985}{}
+\leavevmode\hypertarget{ref-gelman_implicit_1985}{}%
 Gelman, S. A., \& Markman, E. M. (1985). Implicit contrast in adjectives
-vs. nouns: Implications for word-learning in preschoolers*.
+vs. Nouns: Implications for word-learning in preschoolers*.
 \emph{Journal of Child Language}, \emph{12}(1), 125--143.
 \url{http://doi.org/10.1017/S0305000900006279}
 
-\hypertarget{ref-gibson_processing_2011}{}
+\leavevmode\hypertarget{ref-gibson_processing_2011}{}%
 Gibson, E. A., \& Pearlmutter, N. J. (2011). \emph{The Processing and
 Acquisition of Reference}. MIT Press.
 
-\hypertarget{ref-grice1975logic}{}
+\leavevmode\hypertarget{ref-grice1975logic}{}%
 Grice, H. P. (1975). Logic and conversation. \emph{1975}, 41--58.
 
-\hypertarget{ref-huangsnedeker2008}{}
+\leavevmode\hypertarget{ref-huangsnedeker2008}{}%
 Huang, Y. T., \& Snedeker, J. (2008). Use of referential context in
 children's language processing. \emph{Proceedings of the 30th Annual
 Meeting of the Cognitive Science Society}.
 
-\hypertarget{ref-mangold_informativeness_1988}{}
+\leavevmode\hypertarget{ref-mangold_informativeness_1988}{}%
 Mangold, R., \& Pobel, R. (1988). Informativeness and Instrumentality in
 Referential Communication. \emph{Journal of Language and Social
 Psychology}, \emph{7}(3-4), 181--191.
 \url{http://doi.org/10.1177/0261927X8800700403}
 
-\hypertarget{ref-nadig_evidence_2002}{}
+\leavevmode\hypertarget{ref-nadig_evidence_2002}{}%
 Nadig, A. S., \& Sedivy, J. C. (2002). Evidence of Perspective-Taking
 Constraints in Children's On-Line Reference Resolution.
 \emph{Psychological Science}, \emph{13}(4), 329--336.
 \url{http://doi.org/10.1111/j.0956-7976.2002.00460.x}
 
-\hypertarget{ref-pechmann_incremental_1989}{}
+\leavevmode\hypertarget{ref-pechmann_incremental_1989}{}%
 Pechmann, T. (1989). Incremental speech production and referential
 overspecification. \emph{Linguistics}, \emph{27}(1), 89--110.
 \url{http://doi.org/10.1515/ling.1989.27.1.89}
 
-\hypertarget{ref-rubio-fernandez_how_2016}{}
+\leavevmode\hypertarget{ref-rubio-fernandez_how_2016}{}%
 Rubio-Fernández, P. (2016). How Redundant Are Redundant Color
 Adjectives? An Efficiency-Based Analysis of Color Overspecification.
 \emph{Frontiers in Psychology}, \emph{7}.
 \url{http://doi.org/10.3389/fpsyg.2016.00153}
 
-\hypertarget{ref-sedivy_pragmatic_2003-2}{}
+\leavevmode\hypertarget{ref-sedivy_pragmatic_2003-2}{}%
 Sedivy, J. C. (2003). Pragmatic Versus Form-Based Accounts of
 Referential Contrast: Evidence for Effects of Informativity
 Expectations. \emph{Journal of Psycholinguistic Research}, \emph{32}(1),
 3--23. \url{http://doi.org/10.1023/A:1021928914454}
 
-\hypertarget{ref-sedivy_achieving_1999}{}
+\leavevmode\hypertarget{ref-sedivy_achieving_1999}{}%
 Sedivy, J. C., K. Tanenhaus, M., Chambers, C. G., \& Carlson, G. N.
 (1999). Achieving incremental semantic interpretation through contextual
 representation. \emph{Cognition}, \emph{71}(2), 109--147.

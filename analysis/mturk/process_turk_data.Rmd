@@ -24,20 +24,26 @@ grey_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure",
 color_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
 
 scalar_names <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+
+color_prosody_names <-  c("subid", "x", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+
+scalar_prosody_names <- c("subid", "counter", "trialtype", "chosetarget", "targetsize", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos","obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
 ```
 
 ```{r make_mappings}
-newnames <- tibble(type = c("brightdark", "greyer", "grey", "color", "scalar"),
-                   names = list(brightdark_names, greyer_names, grey_names, color_names, scalar_names))
+newnames <- tibble(type = c("brightdark", "greyer", "grey", "color", "scalar", 
+                            "color-prosody", "scalar-prosody"),
+                   names = list(brightdark_names, greyer_names, grey_names, 
+                                color_names, scalar_names, color_prosody_names,
+                                scalar_prosody_names))
 
-dirs <- here("raw_data/mturk")
-
-dirs <- list.dirs(here("raw_data/mturk"), full.names = F) 
+dirs <- list.dirs(here("raw_data/"), full.names = F) 
 
 mappings <- tibble(dir = dirs) %>%
   filter(dir != "") %>%
   rowwise() %>%
   mutate(type = str_split(dir, "-")[[1]][1]) %>%
+  mutate(type = if_else(str_detect(dir, "prosody"), paste0(type,"-prosody"), type)) %>%
   left_join(newnames)
 ```
 
@@ -52,12 +58,12 @@ read_grice_data <- function(df) {
     raw_data <- json_out$answers$data 
     
     data <- raw_data[] %>%
-        as_tibble %>%
+        as_data_frame() %>%
         separate(value, into = newnames, sep = ",") %>%
         mutate(subid = id)
   }
   
-  dir <- paste0(here("raw_data/mturk/"), df$dir)
+  dir <- paste0(here("raw_data/"), df$dir)
  
   files <- list.files(dir, pattern = ".json", full.names = T, recursive = T) %>%
     unlist()

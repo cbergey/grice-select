@@ -18,6 +18,14 @@ data <- read_csv(here("data/turk_data.csv")) %>%
   mutate(item = gsub("chose", "", item))
 ```
 
+```{r keep_subjs}
+keep_subjs <- data %>%
+  filter(searchtype == "uniquetarget", adjective_used, item == "target") %>%
+  group_by(subid) %>%
+  summarise(n = mean(chose)) %>%
+  filter(n == 1)
+```
+
 ```{r mean}
 mean_data <- data %>%
   filter(item != "unique") %>%

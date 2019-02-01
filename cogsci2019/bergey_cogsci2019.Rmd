@@ -36,6 +36,22 @@ library(png)
 library(grid)
 library(ggplot2)
 library(xtable)
+library(tidyverse)
+library(lme4)
+library(broom)
+library(broom.mixed)
+library(here)
+library(english)
+library(ggthemes)
+library(gridExtra)
+library(directlabels)
+library(tidyboot)
+library(papaja)
+
+theme_set(theme_classic(base_size = 10))
+logit <- function(x) {log(x/(1-x))}
+
+options(digits=2)
 ```
 
 # Introduction
@@ -62,27 +78,144 @@ img <- png::readPNG("figs/contrastsize.png")
 grid::grid.raster(img)
 ```
 
-## Methods
-### Participants
+## Method
 
-Eighty participants were recruited from Amazon Mechanical Turk. Forty participants were assigned to a condition in which the critical feature was color (stimuli contrasted on color), and 40 participants were assigned to a condition in which the critical feature was size.
+```{r load_data}
+data <- read_csv(here("data/turk_data.csv")) %>%
+  gather(item, chose, chosetarget, choselure, choseunique) %>%
+  mutate(item = gsub("chose", "", item))
 
-### Stimuli
+e1_data <- data %>% filter(type %in% c("scalar", "color"))
+
+e1_color_subjs <- e1_data %>%
+  filter(type == "color") %>%
+  distinct(subid) %>%
+  nrow()
+
+e1_scalar_subjs <- e1_data %>%
+  filter(type == "scalar") %>%
+  distinct(subid) %>%
+  nrow()
+
+e1_mean_data <- e1_data %>%
+  filter(item != "unique") %>%
+  group_by(type, searchtype, adjective_used, item, subid) %>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup() %>%
+  mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
+
+### Participants.
+
+`r e1_data %>% distinct(subid) %>% nrow() %>% Words` participants were recruited from Amazon Mechanical Turk: `r e1_color_subjs`participants were assigned to a condition in which the critical feature was color (stimuli contrasted on color), and `r e1_scalar_subjs` participants were assigned to a condition in which the critical feature was size.
+
+### Stimuli.
 
 Stimulus displays were arrays of three novel fruit objects. Fruits were chosen randomly at each trial from 25 fruit kinds. Ten of the 25 fruit drawings were adapted and redrawn from [citation needed here]; we designed the remaining 15 fruit kinds. Each fruit kind has an instance in each of four colors (red, blue, green, or purple) and two sizes (big or small). There were two display types: unique target displays and contrastive displays. Unique target displays contain a target object that has a unique shape and is unique on the trial’s critical feature (color or size), and two distractor objects that match each other’s (but not the target’s) shape and critical feature. Contrastive displays contain a target, its contrastive pair (matches the target’s shape but not critical feature), and a lure (matches the target’s critical feature but not shape). The positions of the target and distractor items were randomized within a triad configuration.
 
-### Procedure
+### Design and Procedure.
 
 Participants were told they would play a game in which they would search for strange alien fruits. In the size condition, each participant saw eight trials; in the color condition, each participant saw twelve trials. Half of the trials were unique target displays and half were contrastive displays. Crossed with display type, half of trials had audio instructions that described the critical feature of the target (“Find the [blue/big] dax”), and half of trials had audio instructions with no adjective description (“Find the dax”). A name was randomly chosen at each trial from a list of twelve nonce names: dax, blicket, wug, toma, gade, sprock, koba, zorp, flib, boti, quen, and lomet. In the size condition, the size of the target (big or small) was also crossed with display type and instruction type. All experiment code is available on GitHub and will be accessible at time of acceptance.
 
 
 ## Results
 
-On unique target trials in which a descriptor was given, participants correctly chose the target XX% and XX% in the color and size conditions respectively. When the target was not described on unique target trials, participants chose the target XX% of the time in the color contrast condition and XX% of the time in the size contrast condition, showing a general tendency to choose the unique object even without a descriptor. This bias towards unique objects is likely due to the definite determiner, "the." On contrastive trials, when a descriptor was not given, participants were unlikely to choose the target, doing so at XX% and XX% for color and size respectively (both significantly below chance of 33%). They were most likely to choose the unique object in these displays, at XX% and XX% for color and size respectively.
+
+```{r e1_fig, fig.env = "figure*", fig.width=6, fig.height=3, fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided. Points indicate group means, error bars indicate 95\\% confidence intervals computer by non-parametric bootstrapping"}
+e1_mean_data %>%
+  mutate(empirical_stat = if_else(searchtype == "uniquetarget" & 
+                                    item == "lure", as.double(NA), empirical_stat),
+         item = factor(item, levels = c("target", "lure"))) %>%
+  ggplot(aes(x = adjective_used, color = item, label = item, y = empirical_stat)) +
+  facet_grid(type ~ searchtype) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper),
+                  position = position_dodge(.25)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("") + 
+  geom_dl(method = list(dl.trans(x=x - .5), "first.qp", cex=.7)) +
+  theme(legend.position = "none")
+```
+
+```{r e1_models}
+chance_comparisons <- e1_data %>%
+  filter(searchtype == "uniquetarget", item == "target") %>% 
+  group_by(adjective_used, type, subid)
+
+glmer_chance_comparison <- chance_comparisons %>%
+  filter(!adjective_used) %>%
+  group_by(type) %>%
+  mutate(options = 3) %>%
+  nest() %>%
+  mutate(model = map(data, ~glmer(chose ~  (1|subid), offset = logit(1/options),
+                                  family = "binomial", data = .))) %>%
+  mutate(model = map(model, tidy)) %>%
+  select(-data) %>%
+  unnest() %>%
+  filter(effect == "fixed")
+
+glmer_unique <- chance_comparisons %>%
+  glmer(chose ~ type * adjective_used + (1|subid), family = "binomial", data = .) %>%
+  tidy() %>%
+  filter(effect == "fixed")
+```
+
+
+We first confirmed that participants understood the task by analyzed performance on trials where there was a target unique on both shape and the relevant contrast adjective. We thus asked whether participants chose the target more often than expected by chance ($33\%$) by fitting a mixed effects logistic regression with an intercept term, and a random effect of subject, and an offset of $logit(1/3)$ to set chance probability to the correct the level. The intercept term was reliably different from zero for both color ($\beta =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(p.value) %>% printp()`) and size ($\beta =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(p.value) %>% printp()`). In addition, participants were more likely to select the target when an adjective was provided in both conditions. We confirmed this effect statistically by fitting a mixed effects logistic regression predicting target selection from condition, adjective use, and their interaction with random effects of participants. Adjective type (color vs. size) was not statistically related to target choice ($\beta =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(p.value) %>% printp()`), but adjective use increased target choice ($\beta =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(statistic)`, $p$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(p.value) %>% printp()`). The two effects did not interact ($\beta =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(p.value) %>% printp()`).
+
+When the target was not described on unique target trials, participants chose the target XX% of the time in the color contrast condition and XX% of the time in the size contrast condition, showing a general tendency to choose the unique object even without a descriptor. This bias towards unique objects is likely due to the definite determiner, "the." On contrastive trials, when a descriptor was not given, participants were unlikely to choose the target, doing so at XX% and XX% for color and size respectively (both significantly below chance of 33%). They were most likely to choose the unique object in these displays, at XX% and XX% for color and size respectively.
 	Our key test was whether participants would choose the target object on contrastive trials when description was given, reflecting use of a contrastive inference to choose a novel referent. In the size condition, participants chose the target object XX% of the time, showing a consistent ability to use size contrast to resolve referential ambiguity (significantly above chance, XXXXXX). However, in the color condition, participants chose randomly between the target and the lure (which matched the target on the described adjective). Here, participants showed a clear ability to use adjective contrast on size to disambiguate novel referents, but failed to show this ability with color adjectives.
 
 
 # Experiment 2
+
+```{r load_e2_data}
+e2_data <- data %>% filter(type %in% c("brightdark", "grey", "greyer"))
+                           
+e2_brightdark_subjs <- e2_data %>%
+  filter(type == "brightdark") %>%
+  distinct(subid) %>%
+  nrow()
+
+e2_grey_subjs <- e2_data %>%
+  filter(type == "grey") %>%
+  distinct(subid) %>%
+  nrow()
+
+e2_greyer_subjs <- e2_data %>%
+  filter(type == "greyer") %>%
+  distinct(subid) %>%
+  nrow()
+
+
+e2_mean_data <- e2_data %>%
+  filter(item != "unique", searchtype == "sedivy") %>%
+  group_by(type, searchtype, adjective_used, item, subid) %>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup() %>%
+  mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
+
+
+```{r e2_fig, fig.env = "figure*", fig.width=6, fig.height=3, fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experiment 2"}
+
+e2_mean_data %>%
+  mutate(empirical_stat = if_else(searchtype == "uniquetarget" & 
+                                    item == "lure", as.double(NA), empirical_stat),
+         item = factor(item, levels = c("target", "lure"))) %>%
+  ggplot(aes(x = adjective_used, color = item, label = item, y = empirical_stat)) +
+  facet_wrap( ~ type) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper),
+                  position = position_dodge(.25)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("") + 
+  geom_dl(method = list(dl.trans(x=x - .5), "first.qp", cex=.7)) +
+  theme(legend.position = "none")
+```
+
 
 The results of Experiment 1 demonstrate that adult listeners interpret color and size adjectives differently, attributing more contrastive weight to size adjectives and using them to choose novel referents accordingly. Why might adult listeners do this? As discussed earlier, participants’ responses may reflect a symmetry between adjective production and comprehension. Since color adjectives are used more frequently and redundantly than size adjectives, listeners may attenuate the contrastive weight of color description. A second possibility, not mutually exclusive with the first, is that size is inherently more contrastive than color because size is scalar whereas color is more discrete. Listeners may pay more attention to size contrast because it occurs on a scale, or interpret it as more contrastive because it is relative and requires comparison to other category exemplars.
 	In our second experiment, we aim to examine whether manipulating the descriptor---making it more or less scalar---of the same stimulus will change the participants’ contrastive inferences about color. To do so, we present stimuli with varying levels of saturation and value. These stimuli can be contrasted on either discrete color (blue, grey), relative color (blueish, greyish), or relative brightness (bright, dark) adjectives. By maintaining a constant set of stimuli, we rule out explanations of the contrastive differences between adjective types that are stimulus-specific---such as some contrasts being more visually salient---to which our first experiment is susceptible.
