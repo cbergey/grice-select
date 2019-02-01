@@ -162,10 +162,32 @@ glmer_unique <- chance_comparisons %>%
 ```
 
 
-We first confirmed that participants understood the task by analyzed performance on trials where there was a target unique on both shape and the relevant contrast adjective. We thus asked whether participants chose the target more often than expected by chance ($33\%$) by fitting a mixed effects logistic regression with an intercept term, and a random effect of subject, and an offset of $logit(1/3)$ to set chance probability to the correct the level. The intercept term was reliably different from zero for both color ($\beta =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(p.value) %>% printp()`) and size ($\beta =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(p.value) %>% printp()`). In addition, participants were more likely to select the target when an adjective was provided in both conditions. We confirmed this effect statistically by fitting a mixed effects logistic regression predicting target selection from condition, adjective use, and their interaction with random effects of participants. Adjective type (color vs. size) was not statistically related to target choice ($\beta =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(p.value) %>% printp()`), but adjective use increased target choice ($\beta =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(statistic)`, $p$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(p.value) %>% printp()`). The two effects did not interact ($\beta =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(p.value) %>% printp()`).
+We first confirmed that participants understood the task by analyzing performance on trials in which there was a target unique on both shape and the relevant contrast adjective. We asked whether participants chose the target more often than expected by chance ($33\%$) by fitting a mixed effects logistic regression with an intercept term, and a random effect of subject, and an offset of $logit(1/3)$ to set chance probability to the correct level. The intercept term was reliably different from zero for both color ($\beta =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "color") %>% pull(p.value) %>% printp()`) and size ($\beta =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(statistic)`, $p$ `r glmer_chance_comparison %>% filter(type == "scalar") %>% pull(p.value) %>% printp()`). In addition, participants were more likely to select the target when an adjective was provided in the audio instruction in both conditions. We confirmed this effect statistically by fitting a mixed effects logistic regression predicting target selection from condition, adjective use, and their interaction with random effects of participants. Adjective type (color vs. size) was not statistically related to target choice ($\beta =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar") %>% pull(p.value) %>% printp()`), but adjective use increased target choice ($\beta =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(statistic)`, $p$ `r glmer_unique %>% filter(term == "adjective_usedTRUE") %>% pull(p.value) %>% printp()`). The two effects did not interact ($\beta =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(statistic)`, $p =$ `r glmer_unique %>% filter(term == "typescalar:adjective_usedTRUE") %>% pull(p.value) %>% printp()`). Participants had a general tendency to choose the target in unique target trials, which was amplified if the audio instruction contained the relevant contrast adjective.
 
-When the target was not described on unique target trials, participants chose the target XX% of the time in the color contrast condition and XX% of the time in the size contrast condition, showing a general tendency to choose the unique object even without a descriptor. This bias towards unique objects is likely due to the definite determiner, "the." On contrastive trials, when a descriptor was not given, participants were unlikely to choose the target, doing so at XX% and XX% for color and size respectively (both significantly below chance of 33%). They were most likely to choose the unique object in these displays, at XX% and XX% for color and size respectively.
-	Our key test was whether participants would choose the target object on contrastive trials when description was given, reflecting use of a contrastive inference to choose a novel referent. In the size condition, participants chose the target object XX% of the time, showing a consistent ability to use size contrast to resolve referential ambiguity (significantly above chance, XXXXXX). However, in the color condition, participants chose randomly between the target and the lure (which matched the target on the described adjective). Here, participants showed a clear ability to use adjective contrast on size to disambiguate novel referents, but failed to show this ability with color adjectives.
+```{r e1_models_contrast}
+chance_comparisons_contrast <- e1_data %>%
+  filter(searchtype == "sedivy", item == "target") %>% 
+  group_by(adjective_used, type, subid)
+
+glmer_chance_comparison_contrast <- chance_comparisons_contrast %>%
+  filter(adjective_used) %>%
+  group_by(type) %>%
+  mutate(options = 2) %>%
+  nest() %>%
+  mutate(model = map(data, ~glmer(chose ~  (1|subid), offset = logit(1/options),
+                                  family = "binomial", data = .))) %>%
+  mutate(model = map(model, tidy)) %>%
+  select(-data) %>%
+  unnest() %>%
+  filter(effect == "fixed")
+
+glmer_unique_contrast <- chance_comparisons_contrast %>%
+  glmer(chose ~ type * adjective_used + (1|subid), family = "binomial", data = .) %>%
+  tidy() %>%
+  filter(effect == "fixed")
+```
+
+Our key test was whether participants would choose the target object on contrastive trials in which description was given, reflecting use of a contrastive inference to choose a novel referent. To do this, we compare participants' choice of referent on contrastive displays with descriptive audio to chance perforance (50% once the adjective has narrowed down the referents). The intercept term was reliably different from zero in the size condition ($\beta =$ `r glmer_chance_comparison_contrast %>% filter(type == "scalar") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_contrast %>% filter(type == "scalar") %>% pull(statistic)`, $p =$ `r glmer_chance_comparison_contrast %>% filter(type == "scalar") %>% pull(p.value) %>% printp()`), indicating that participants used size adjectives to choose the referent contrastively. However, participants in the color condition did not choose the target at a rate different from chance ($\beta =$ `r glmer_chance_comparison_contrast %>% filter(type == "color") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_contrast %>% filter(type == "color") %>% pull(statistic)`, $p =$ `r glmer_chance_comparison_contrast %>% filter(type == "color") %>% pull(p.value) %>% printp()`). On contrastive trials in which a descriptor was not given, participants tended to choose the lure object, which matched the target on the descriptor but had a unique shape. Adjective use therefore increased target choice ($\beta =$ `r glmer_unique_contrast %>% filter(term == "adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique_contrast %>% filter(term == "adjective_usedTRUE") %>% pull(statistic)`, $p$ `r glmer_unique_contrast %>% filter(term == "adjective_usedTRUE") %>% pull(p.value) %>% printp()`) across contrastive trials.  
 
 
 # Experiment 2
@@ -239,13 +261,92 @@ img <- png::readPNG("figs/contrastbrightdark.png")
 grid::grid.raster(img)
 ```
 
+```{r e2_models}
+chance_comparisons_unique_2 <- e2_data %>%
+  filter(searchtype == "uniquetarget", item == "target") %>% 
+  group_by(adjective_used, type, subid)
+
+glmer_chance_comparison_unique_2 <- chance_comparisons_unique_2 %>%
+  filter(!adjective_used) %>%
+  group_by(type) %>%
+  mutate(options = 3) %>%
+  nest() %>%
+  mutate(model = map(data, ~glmer(chose ~  (1|subid), offset = logit(1/options),
+                                  family = "binomial", data = .))) %>%
+  mutate(model = map(model, tidy)) %>%
+  select(-data) %>%
+  unnest() %>%
+  filter(effect == "fixed")
+
+chance_comparisons_contrast_2 <- e2_data %>%
+  filter(searchtype == "sedivy", item == "target") %>% 
+  group_by(adjective_used, type, subid)
+
+glmer_chance_comparison_contrast_2 <- chance_comparisons_contrast_2 %>%
+  filter(adjective_used) %>%
+  group_by(type) %>%
+  mutate(options = 2) %>%
+  nest() %>%
+  mutate(model = map(data, ~glmer(chose ~  (1|subid), offset = logit(1/options),
+                                  family = "binomial", data = .))) %>%
+  mutate(model = map(model, tidy)) %>%
+  select(-data) %>%
+  unnest() %>%
+  filter(effect == "fixed")
+
+glmer_unique_2 <- chance_comparisons_unique_2 %>%
+  glmer(chose ~ type * adjective_used + (1|subid), family = "binomial", data = .) %>%
+  tidy() %>%
+  filter(effect == "fixed")
+```
 ## Results
-On unique target trials when a descriptor was given, participants correctly chose the target XX%, XX%, and XX% of the time in the discrete color, relative color, and relative brightness conditions, respectively. When the target was not described on unique target trials, participants chose the target XX%, XX%, and XX% of the time in the discrete color, relative color, and relative brightness conditions. On contrastive trials, when a descriptor was not given, participants were unlikely to choose the target, doing so at XX%, XX%, and XX% for discrete color, relative color, and relative brightness respectively.
-	Our key test was whether participants would choose the target object on contrastive trials when description was given, reflecting use of a contrastive inference to choose a novel referent. Across all adjective types, participants did not choose the target above chance levels (50%, since two objects in each contrastive display fit the adjective description). Participants did not consistently demonstrate a contrastive interpretation in their referent choices.
+
+We first analyzed performance on trials in which there was a target unique on both shape and the relevant contrast adjective, asking whether participants chose the target more often than expected by chance ($33\%$) by fitting a mixed effects logistic regression with an intercept term, and a random effect of subject, and an offset of $logit(1/3)$ to set chance probability to the correct level. The intercept term was reliably different from zero for color (e.g., blue, grey) ($\beta =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "grey") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "grey") %>% pull(statistic)`, $p$ `r glmer_chance_comparison_unique_2 %>% filter(type == "grey") %>% pull(p.value) %>% printp()`), relative color (e.g., bluer, greyer) ($\beta =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "greyer") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "greyer") %>% pull(statistic)`, $p$ `r glmer_chance_comparison_unique_2 %>% filter(type == "greyer") %>% pull(p.value) %>% printp()`) or value (e.g., bright, dark) ($\beta =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "brightdark") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_unique_2 %>% filter(type == "brightdark") %>% pull(statistic)`, $p$ `r glmer_chance_comparison_unique_2 %>% filter(type == "brightdark") %>% pull(p.value) %>% printp()`). Adjective type (color vs. relative color vs. bright/dark) was not statistically related to target choice, and adjective use did not significantly increase target choice ($\beta =$ `r glmer_unique_2 %>% filter(term == "adjective_usedTRUE") %>% pull(estimate)`, $t =$ `r glmer_unique_2 %>% filter(term == "adjective_usedTRUE") %>% pull(statistic)`, $p$ `r glmer_unique_2 %>% filter(term == "adjective_usedTRUE") %>% pull(p.value) %>% printp()`).Participants had a general tendency to choose the target in unique target trials, but there were no significant main effects of adjective use or adjective type on these trials. 
+ 
+
+Our key test was whether participants would choose the target object on contrastive trials when description was given, reflecting use of a contrastive inference to choose a novel referent. Across all adjective types, participants did not choose the target above chance levels ($\beta =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "grey") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "grey") %>% pull(statistic)`, $p =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "grey") %>% pull(p.value) %>% printp()`) for relative color: ($\beta =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "greyer") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "greyer") %>% pull(statistic)`, $p =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "greyer") %>% pull(p.value) %>% printp()`) for value: ($\beta =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "brightdark") %>% pull(estimate)`, $t =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "brightdark") %>% pull(statistic)`, $p =$ `r glmer_chance_comparison_contrast_2 %>% filter(type == "brightdark") %>% pull(p.value) %>% printp()`). Across these conditions, participants did not consistently demonstrate a contrastive interpretation in their referent choices.
 
 # Experiment 3
+```{r load_e3_data}
+e3_data <- data %>% filter(type %in% c("scalar", "color"))
+                           
+e3_scalar_subjs <- e3_data %>%
+  filter(type == "scalar") %>%
+  distinct(subid) %>%
+  nrow()
 
-The results of Experiment 2 suggest that color is not easily interpreted contrastively, even when descriptors suggest a scalar interpretation.  Given that color has contrastive weight in implicit measures, such as eye-tracking [@sedivy_achieving_1999], and fails to do so in our explicit measure, perhaps participants needed a more explicit pragmatic cue to contrastiveness. To test whether an explicit pragmatic cue would induce contrastive inferences, in Experiment 3 we manipulate prosody.
+e3_color_subjs <- e3_data %>%
+  filter(type == "color") %>%
+  distinct(subid) %>%
+  nrow()
+
+e3_mean_data <- e3_data %>%
+  filter(item != "unique", searchtype == "sedivy") %>%
+  group_by(type, searchtype, adjective_used, item, subid) %>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup() %>%
+  mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
+
+
+```{r e3_fig, fig.env = "figure*", fig.width=6, fig.height=3, fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experiment 3"}
+
+e3_mean_data %>%
+  mutate(empirical_stat = if_else(searchtype == "uniquetarget" & 
+                                    item == "lure", as.double(NA), empirical_stat),
+         item = factor(item, levels = c("target", "lure"))) %>%
+  ggplot(aes(x = adjective_used, color = item, label = item, y = empirical_stat)) +
+  facet_wrap( ~ type) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper),
+                  position = position_dodge(.25)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("") + 
+  geom_dl(method = list(dl.trans(x=x - .5), "first.qp", cex=.7)) +
+  theme(legend.position = "none")
+```
+The results of Experiment 2 suggest that color is not easily interpreted contrastively, even when descriptors suggest a scalar interpretation.  Given that color has contrastive weight in implicit measures in specific contexts [@sedivy_achieving_1999; @sedivy_pragmatic_2003-2], and fails to do so in our explicit measure, perhaps participants needed a more explicit pragmatic cue to contrastiveness. To test whether an explicit pragmatic cue would induce contrastive inferences, in Experiment 3 we manipulate prosody.
 
 The placement of prosodic stress on a word tends to evoke its set of alternatives, inducing a contrastive interpretation. In early work on incremental semantic processing [@eberhard_eye_1995], participants saw displays containing, for example, a large blue square, a small blue square, a large yellow circle, and a small red triangle. Hearing an instruction with contrastive stress on the size adjective—“Find the *large* blue square”—facilitated their fixation on the target compared to instructions without contrastive stress. In Experiment 3, we test whether adding contrastive stress on the adjective in our instructions facilitates a contrastive interpretation.
 
