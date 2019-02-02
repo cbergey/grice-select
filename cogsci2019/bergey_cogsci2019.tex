@@ -63,7 +63,24 @@ description to disambiguate referents}
 \maketitle
 
 \begin{abstract}
-When communicating, humans often encounter referential ambiguity.
+Human listeners are often faced with referential ambiguity. One way they
+reduce ambiguity is by using description to narrow down referents.
+Beyond narrowing referents to those that match a descriptor, listeners
+may infer that a described referent is also one that would have needed
+description to be identified uniquely---that it contrasts with other
+relevant objects of the same type. This kind of contrastive inference is
+known to operate in online processing as listeners try to pick a
+referent as a referential utterance progresses (Sedivy et al., 1999;
+Sedivy, 2003). However, it is not known whether listeners use this type
+of inference to explicitly resolve referential ambiguity: to guide their
+choice of a referent. In three experiments, we test whether adult
+listeners use color and size adjectives contrastively to guide their
+mapping of a novel word onto a novel referent. We find that while they
+use size adjectives contrastively to guide referent choice, they do not
+do so with color adjectives (Experiment 1). Further, even when color is
+described with more relative language (Experiment 2) or emphasized with
+prosodic contrastive stress (Experiment 3), participants do not
+consistently interpret color contrastively to guide referent choice.
 
 \textbf{Keywords:}
 reference resolution; pragmatics; prenominal adjectives
@@ -189,10 +206,12 @@ a more consistent contrastive inference.
 
 \subsubsection{Participants.}\label{participants.}
 
-Sixty participants were recruited from Amazon Mechanical Turk:
-40participants were assigned to a condition in which the critical
-feature was color (stimuli contrasted on color), and 20 participants
-were assigned to a condition in which the critical feature was size.
+100 participants were recruited from Amazon Mechanical Turk. First, 0
+were recruited to pilot the task with scalar adjectives. After the
+pilot, a full run of the experiment was conducted: 40 participants were
+assigned to a condition in which the critical feature was color (stimuli
+contrasted on color), and 40 participants were assigned to a condition
+in which the critical feature was size.
 
 \subsubsection{Stimuli.}\label{stimuli.}
 
@@ -210,6 +229,17 @@ contain a target, its contrastive pair (matches the target's shape but
 not critical feature), and a lure (matches the target's critical feature
 but not shape). The positions of the target and distractor items were
 randomized within a triad configuration.
+
+\begin{CodeChunk}
+\begin{figure*}[tb]
+
+{\centering \includegraphics{figs/e1_fig-1} 
+
+}
+
+\caption[Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided]{Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided. Points indicate group means, error bars indicate 95\% confidence intervals computer by non-parametric bootstrapping}\label{fig:e1_fig}
+\end{figure*}
+\end{CodeChunk}
 
 \subsubsection{Design and Procedure.}\label{design-and-procedure.}
 
@@ -229,58 +259,48 @@ is available on GitHub and will be accessible at time of acceptance.
 
 \subsection{Results}\label{results}
 
-\begin{CodeChunk}
-\begin{figure*}[tb]
-
-{\centering \includegraphics{figs/e1_fig-1} 
-
-}
-
-\caption[Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided]{Proportion of times that participants chose the target and lure items as a functinon of condition and whether an adjective was provided. Points indicate group means, error bars indicate 95\% confidence intervals computer by non-parametric bootstrapping}\label{fig:e1_fig}
-\end{figure*}
-\end{CodeChunk}
-
 We first confirmed that participants understood the task by analyzing
 performance on trials in which there was a target unique on both shape
-and the relevant contrast adjective. We asked whether participants chose
-the target more often than expected by chance (\(33\%\)) by fitting a
-mixed effects logistic regression with an intercept term, and a random
-effect of subject, and an offset of \(logit(1/3)\) to set chance
-probability to the correct level. The intercept term was reliably
-different from zero for both color (\(\beta =\) 1.13, \(t =\) 4.01,
-\(p\) \textless{} .001) and size (\(\beta =\) 1.54, \(t =\) 4.46, \(p\)
-\textless{} .001). In addition, participants were more likely to select
-the target when an adjective was provided in the audio instruction in
-both conditions. We confirmed this effect statistically by fitting a
-mixed effects logistic regression predicting target selection from
-condition, adjective use, and their interaction with random effects of
-participants. Adjective type (color vs.~size) was not statistically
-related to target choice (\(\beta =\) 0.77, \(t =\) 1.16, \(p =\) .245),
-but adjective use increased target choice (\(\beta =\) 1.81, \(t =\)
-4.46, \(p\) \textless{} .001). The two effects did not interact
-(\(\beta =\) 0.72, \(t =\) 0.76, \(p =\) .445). Participants had a
-general tendency to choose the target in unique target trials, which was
-amplified if the audio instruction contained the relevant contrast
-adjective.
+and the relevant contrast adjective. The below results hold for the
+pilot with scalar adjectives, but we report values from the full run of
+both conditions. We asked whether participants chose the target more
+often than expected by chance (\(33\%\)) by fitting a mixed effects
+logistic regression with an intercept term, and a random effect of
+subject, and an offset of \(logit(1/3)\) to set chance probability to
+the correct level. The intercept term was reliably different from zero
+for both color (\(\beta =\) 1.13, \(t =\) 4.01, \(p\) \textless{} .001)
+and size (\(\beta =\) 7.61, \(t =\) 3.95, \(p\) \textless{} .001). In
+addition, participants were more likely to select the target when an
+adjective was provided in the audio instruction in both conditions. We
+confirmed this effect statistically by fitting a mixed effects logistic
+regression predicting target selection from condition, adjective use,
+and their interaction with random effects of participants. Adjective
+type (color vs.~size) was not statistically related to target choice
+(\(\beta =\) 0.99, \(t =\) 1.61, \(p =\) .107), but adjective use
+increased target choice (\(\beta =\) 1.93, \(t =\) 4.63, \(p\)
+\textless{} .001). The two effects did not interact (\(\beta =\) -1.06,
+\(t =\) -1.71, \(p =\) .087). Participants had a general tendency to
+choose the target in unique target trials, which was amplified if the
+audio instruction contained the relevant contrast adjective.
 
 Our key test was whether participants would choose the target object on
 contrastive trials in which description was given, reflecting use of a
 contrastive inference to choose a novel referent. To do this, we compare
-participants' choice of referent on contrastive displays with
-descriptive audio to chance perforance (50\% once the adjective has
-narrowed down the referents). The intercept term was reliably different
-from zero in the size condition (\(\beta =\) 0.85, \(t =\) 2.46, \(p =\)
-.014), indicating that participants used size adjectives to choose the
-referent contrastively. However, participants in the color condition did
-not choose the target at a rate different from chance (\(\beta =\) 0.07,
-\(t =\) 0.37, \(p =\) .715). On contrastive trials in which a descriptor
-was not given, participants dispreferred the target, instead choosing
-the lure object, which matched the target on the descriptor but had a
-unique shape; this was true across color (\(\beta =\) -1.81, \(t =\)
--3.66, \(p =\) \textless{} .001) and size (\(\beta =\) -2.63, \(t =\)
--1.57, \(p =\) .116) conditions. Adjective use therefore increased
-target choice (\(\beta =\) 1.3, \(t =\) 4.58, \(p\) \textless{} .001)
-across contrastive trials.
+participants' rate of choosing the target to their rate of choosing the
+lure, which shares the relevant contrast feature with the target, when
+the audio described the contrast feature. Participants chose the target
+more than the lure in the size condition (\(\beta =\) 0.85, \(t =\)
+1.97, \(p =\) .049), indicating that participants used size adjectives
+to choose the referent contrastively. However, participants in the color
+condition did not choose the target significantly more often than they
+chose the lure (\(\beta =\) 0.24, \(t =\) 1.23, \(p =\) .218). On
+contrastive trials in which a descriptor was not given, participants
+dispreferred the target, instead choosing the lure object, which matched
+the target on the descriptor but had a unique shape; this was true
+across color (\(\beta =\) -1.75, \(t =\) -2.02, \(p =\) .043) and size
+(\(\beta =\) -7.96, \(t =\) -3.73, \(p =\) \textless{} .001) conditions.
+Adjective use therefore increased target choice (\(\beta =\) 1.37,
+\(t =\) 4.59, \(p\) \textless{} .001) across contrastive trials.
 
 \section{Experiment 2}\label{experiment-2}
 
@@ -386,13 +406,16 @@ main effects of adjective use or adjective type on these trials.
 Our key test was whether participants would choose the target object on
 contrastive trials when description was given, reflecting use of a
 contrastive inference to choose a novel referent. Across all adjective
-types, participants did not choose the target above chance levels,
-choosing numerically below chance (for color: \(\beta =\) -1.82, \(t =\)
--3.98, \(p =\) \textless{} .001; for relative color: \(\beta =\) -1.1,
-\(t =\) -2.01, \(p =\) .044; for value: \(\beta =\) -0.25, \(t =\) -1.2,
-\(p =\) .231). Across these conditions, participants did not
-consistently demonstrate a contrastive interpretation in their referent
-choices.
+types, participants did not choose the target significantly more than
+they chose the lure, in fact showing a numerical preference for the lure
+in each condition and a significant preference for the lure in the
+discrete color (e.g., blue, grey) condition (for discrete color:
+\(\beta =\) -1.64, \(t =\) -3.34, \(p =\) .001; for relative color:
+\(\beta =\) -0.94, \(t =\) -1.84, \(p =\) .066; for value: \(\beta =\)
+-0.1, \(t =\) -0.44, \(p =\) .659). Across these conditions,
+participants did not consistently demonstrate a contrastive
+interpretation in their referent choices, and in fact tended to avoid
+contrastive choices.
 
 \section{Experiment 3}\label{experiment-3}
 
@@ -457,33 +480,34 @@ expected by chance (\(33\%\)) on unique target trials by fitting a mixed
 effects logistic regression with an intercept term, and a random effect
 of subject, and an offset of \(logit(1/3)\) to set chance probability to
 the correct level. The intercept term was reliably different from zero
-for the color (\(\beta =\) 1.13, \(t =\) 4.01, \(p\) \textless{} .001)
-and size (\(\beta =\) 1.54, \(t =\) 4.46, \(p\) \textless{} .001)
+for the color (\(\beta =\) 2.15, \(t =\) 6.25, \(p\) \textless{} .001)
+and size (\(\beta =\) 2.58, \(t =\) 4.35, \(p\) \textless{} .001)
 conditions. Adjective type (color vs.~size) was not statistically
-related to target choice (\(\beta =\) 0.77, \(t =\) 1.16, \(p =\) .245),
-but adjective use increased target choice (\(\beta =\) 1.81, \(t =\)
-4.46, \(p\) \textless{} .001).
+related to target choice (\(\beta =\) 0.42, \(t =\) 0.77, \(p =\) .444),
+but adjective use increased target choice (\(\beta =\) 0.34, \(t =\)
+0.92, \(p\) .360).
 
 Our key test was whether participants would choose the target object on
 contrastive trials when description was given with contrastive stress,
 reflecting use of the descriptor and/or prosodic stress to choose the
-referent. In the scalar condition, the effects found in Experiment 1
-persisted: participants chose the target significantly above chance
-levels when the descriptor was used on contrastive trials (\(\beta =\)
-0.85, \(t =\) 2.46, \(p =\) .014). In the color condition, however, the
-pattern found in Experiment 1 also persisted: participants failed to
-choose the intended target above chance levels (\(\beta =\) 0.07,
-\(t =\) 0.37, \(p =\) .715). While the effect of size contrast persisted
-when a prosodic cue to contrast was added, no contrastive effect of
-color emerged.
+referent. In the size condition, participants chose the target more
+often than they chose the lure, but this difference did not reach
+significance (\(\beta =\) 1.37, \(t =\) 1.44, \(p =\) .151). In the
+color condition, participants chose the lure numerically more than they
+chose the target, and the difference was not significant (\(\beta =\)
+-0.51, \(t =\) -1.09, \(p =\) .277). In this task, contrastive stress
+did not seem to encourage a contrastive inference. Though the data
+patterned similarly to that of Experiment 1, with participants in the
+size condition choosing the target more often than they chose the lure,
+this difference did not reach significance.
 
 \section{Discussion}\label{discussion}
 
 In this series of experiments, we asked whether listeners could use
-pragmatic contrast to resolve referential ambiguity. Consistently,
-participants were able to use size adjectives contrastively to establish
-a novel word--referent mapping. Their contrastive inference goes beyond
-the implicit attention allocation shown in prior eye-tracking paradigms
+pragmatic contrast to resolve referential ambiguity. Participants were
+able to use size adjectives contrastively to establish a novel
+word--referent mapping. Their contrastive inference goes beyond the
+implicit attention allocation shown in prior eye-tracking paradigms
 (Huang \& Snedeker, 2008; Sedivy et al., 1999), determining explicit
 referent choice. This finding bolsters contrastive inference as a viable
 tool for referential disambiguation.

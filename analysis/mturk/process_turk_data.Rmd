@@ -23,19 +23,21 @@ grey_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure",
   
 color_names <- c("subid", "x","counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
 
-scalar_names <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+scalar_names <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "targetsize", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1size","obj2shape","obj2size","obj3shape","obj3size")
 
 color_prosody_names <-  c("subid", "x", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "colorasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
 
 scalar_prosody_names <- c("subid", "counter", "trialtype", "chosetarget", "targetsize", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos","obj1shape","obj1color","obj2shape","obj2color","obj3shape","obj3color")
+
+scalar_pilot_names <- c("subid", "counter", "trialtype", "chosetarget", "choselure", "targetname","chosename", "sizeasked", "searchtype","choseunique", "targetshape", "targetcolor", "targetword", "distractorshape1", "distractorshape2", "distractorcolor1", "distractorcolor2", "date", "timestamp", "rtsearch", "targetpos", "lurepos", "obj1shape","obj1size","obj2shape","obj2size","obj3shape","obj3size")
 ```
 
 ```{r make_mappings}
 newnames <- tibble(type = c("brightdark", "greyer", "grey", "color", "scalar", 
-                            "color-prosody", "scalar-prosody"),
+                            "color-prosody", "scalar-pilot", "scalar-prosody"),
                    names = list(brightdark_names, greyer_names, grey_names, 
                                 color_names, scalar_names, color_prosody_names,
-                                scalar_prosody_names))
+                                scalar_pilot_names, scalar_prosody_names))
 
 dirs <- list.dirs(here("raw_data/"), full.names = F) 
 
@@ -44,6 +46,7 @@ mappings <- tibble(dir = dirs) %>%
   rowwise() %>%
   mutate(type = str_split(dir, "-")[[1]][1]) %>%
   mutate(type = if_else(str_detect(dir, "prosody"), paste0(type,"-prosody"), type)) %>%
+  mutate(type = if_else(str_detect(dir, "pilot"), paste0(type,"-pilot"), type)) %>%
   left_join(newnames)
 ```
 
