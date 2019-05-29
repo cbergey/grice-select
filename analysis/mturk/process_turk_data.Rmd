@@ -97,3 +97,36 @@ data <- raw_data %>%
 
 write_csv(data, here("data/turk_data.csv"))
 ```
+
+```{r new_control}
+files <- list.files(here("raw_data/triad-color-contrast-control"), 
+                    full.names = T) 
+
+
+read_grice_file <- function(file, newnames) {
+  
+    json_out <- fromJSON(file)
+    id <- json_out$WorkerId
+    
+    raw_data <- json_out$answers$data 
+    
+    cols <- raw_data[1] %>%
+      str_split(",") %>%
+      unlist() %>%
+      str_trim()
+      
+    raw_data[] %>%
+      enframe(name = NULL) %>%
+      slice(-1) %>%
+      separate(value, into = cols, sep = ",") %>%
+      mutate(subid = id)
+}
+
+data <- map_df(files, read_grice_file)  %>% 
+  mutate(subid = salt(subid, .seed = 400)) %>%
+  mutate(subid = as.numeric(as.factor(subid)))
+
+write_csv(data, here("data/turk_data_control.csv"))
+
+
+```

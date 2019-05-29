@@ -18,6 +18,30 @@ data <- read_csv(here("data/turk_data.csv")) %>%
   mutate(item = gsub("chose", "", item))
 ```
 
+```{r read_control_data}
+data <- read_csv(here("data/turk_data_control.csv")) %>%
+  gather(item, chose, chosetarget, choselure, choseunique) %>%
+  mutate(item = gsub("chose", "", item)) %>%
+  mutate(chose = chose == "true", colorasked = colorasked == "true")
+```
+
+
+```{r read_kid_data}
+col_names <- "subid, age, counter, trialtype, chosetarget, choselure, targetname, chosenname, sizeasked, searchtype, choseunique, targetshape, targetcolor, targetword, distractorshape1, distractorshape2, distractorcolor1, distractorcolor2, date, timestamp, rtsearch, targetpos, lurepos, obj1shape,obj1color,obj2shape,obj2color,obj3shape,obj3color" %>%
+  str_split(",") %>%
+  unlist() %>%
+  str_trim()  
+
+kid_data <- read_csv(here("data/kid_control.csv"),
+                     col_names = col_names) %>%
+  filter(subid != 0, obj1shape != "undefined", 
+         obj2shape != "undefined", obj3shape != "undefined") %>%
+  gather(item, chose, chosetarget, choselure, choseunique) %>%
+  mutate(item = gsub("chose", "", item)) 
+  #mutate(chose = chose == "true", sizeasked = sizeasked == "true")
+```
+
+
 ```{r keep_subjs}
 keep_subjs <- data %>%
   filter(searchtype == "uniquetarget", adjective_used, item == "target") %>%
@@ -36,9 +60,52 @@ mean_data <- data %>%
   mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
 ```
 
+
+```{r mean}
+mean_data <- data %>%
+  filter(item != "unique", !is.na(targetname), searchtype != "searchtype") %>%
+  group_by(searchtype, colorasked, item, subid)%>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup()
+  #mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
+
+```{r mean}
+mean_kid_data <- kid_data %>%
+  #filter(item != "unique") %>%
+  group_by(searchtype, sizeasked, item, subid)%>%
+  summarise(chose = mean(chose), n = n()) %>%
+  tidyboot_mean(chose) %>%
+  ungroup()
+  #mutate(adjective_used = factor(adjective_used, labels = c("noun", "adjective noun")))
+```
+
 ```{r unique, fig.width = 10}
 ggplot(mean_data %>% filter(searchtype == "uniquetarget", item == "target"), 
        aes(x = adjective_used, color = type)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat),
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("")
+```
+
+```{r unique, fig.width = 10}
+ggplot(mean_data,
+       aes(x = searchtype, color = item)) +
+  facet_wrap(~colorasked) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat),
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  ylab("Item chosen") + 
+  xlab("")
+```
+
+```{r unique, fig.width = 10}
+ggplot(mean_kid_data,
+       aes(x = searchtype, color = item)) +
+  facet_wrap(~sizeasked) + 
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper, y = empirical_stat),
                   position = position_dodge(.5)) + 
   scale_color_ptol() + 
