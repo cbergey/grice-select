@@ -1,0 +1,95 @@
+---
+title: "e1_analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(lme4)
+library(lmerTest)
+library(broom)
+library(papaja)
+```
+
+
+```{r load_data}
+data <- read_csv(here("data/turk_data.csv")) %>%
+  gather(item, chose, chosetarget, choselure, choseunique) %>%
+  mutate(item = gsub("chose", "", item))
+
+e1_data <- data %>% filter(type %in% c("scalar", "color"))
+```
+
+```{r unique-target-tests}
+unique_data <- e1_data %>%
+  filter(searchtype == "uniquetarget") %>%
+  pivot_wider(names_from = "item", values_from = "chose")
+
+
+unique_data %>%
+  group_by(adjective_used, type) %>%
+  mutate(base = logit(1/3)) %>%
+  nest() %>%
+  mutate(model = map(data, ~ glmer(target ~ 1 + (1 | subid) + (1|targetword), 
+                                   offset = base,
+                                  family = "binomial", data = .) %>% 
+                       tidy())) %>%
+  select(-data) %>% 
+  unnest(cols = c(model)) %>%
+  filter(effect == "fixed") %>%
+  select(-effect, -group, - std.error) %>%
+  mutate(p.value = printp(p.value))
+
+unique_data %>%
+  mutate(base = logit(1/3)) %>%
+  glmer(target ~ type + adjective_used + (1 | subid), 
+        offset = base, family = "binomial", data = .) %>% 
+  tidy %>% 
+  filter(effect == "fixed") %>%
+  select(-effect, -group, - std.error) %>%
+  mutate(p.value = printp(p.value))
+```
+
+```{r}
+contrast_data <- e1_data %>%
+  filter(searchtype == "sedivy") %>%
+  pivot_wider(names_from = "item", values_from = "chose") %>%
+  filter(target | lure)
+
+# Full interaction
+model <- glmer(target ~ type * adjective_used + (1 | subid), 
+              family = "binomial",
+              data = contrast_data) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-effect, -group, - std.error) %>%
+  mutate(p.value = printp(p.value))
+
+# Size vs. color on modification trials
+contrast_data %>%
+  filter(adjective_used) %>%
+  glmer(target ~ type + (1 | subid), 
+              family = "binomial",
+              data = .) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-effect, -group, - std.error) %>%
+  mutate(p.value = printp(p.value))
+  
+
+# Size and color modification seperately
+condition_test <- contrast_data %>%
+  filter(adjective_used) %>%
+  group_by(type) %>%
+  nest() %>%
+  mutate(model = map(data, ~glmer(target ~ 1 + (1 | subid) + (1|targetword), 
+                                  family = "binomial", data = .) %>% 
+                       tidy())) %>%
+  select(-data) %>% 
+  unnest(cols = c(model)) %>%
+  filter(effect == "fixed") %>%
+  select(-effect, -group, - std.error) %>%
+  mutate(p.value = printp(p.value))
+
+```
